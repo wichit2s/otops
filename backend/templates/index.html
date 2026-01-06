@@ -1,0 +1,18 @@
+{% load django_vite %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTOPS - หนึ่งตำบลหนึ่งผลิตภัณฑ์</title>
+    {% vite_hmr_client %}
+    {% vite_react_refresh %}
+    {% vite_asset 'main.jsx' %}
+</head>
+
+<body class="bg-gray-50">
+    <div id="root"></div>
+</body>
+
+</html>
