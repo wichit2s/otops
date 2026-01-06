@@ -76,13 +76,27 @@ Web-based platform accessible via modern browsers.
 To run the project locally for development, you need two terminal sessions.
 
 **Backend (Django):**
+
+* https://www.djangoproject.com/start/
+* https://www.django-rest-framework.org/tutorial/quickstart/
+* https://github.com/MrBin99/django-vite
+
 ```bash
 cd backend
-source venv/bin/activate
-python manage.py runserver
+uv add -r requirements.txt
+uv run manage.py makemigrations
+uv run manage.py migrate
+uv run manage.py seed_data
+uv run manage.py runserver
 ```
 
 **Frontend (Vite/React):**
+
+* https://vite.dev/guide/ 
+* https://react.dev/learn
+* https://tailwindcss.com/docs/installation/using-vite
+
+
 ```bash
 cd frontend
 npm install
