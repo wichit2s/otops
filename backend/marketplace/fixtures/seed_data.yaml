@@ -1,0 +1,719 @@
+- model: auth.permission
+  pk: 1
+  fields:
+    name: Can add log entry
+    content_type: 1
+    codename: add_logentry
+- model: auth.permission
+  pk: 2
+  fields:
+    name: Can change log entry
+    content_type: 1
+    codename: change_logentry
+- model: auth.permission
+  pk: 3
+  fields:
+    name: Can delete log entry
+    content_type: 1
+    codename: delete_logentry
+- model: auth.permission
+  pk: 4
+  fields:
+    name: Can view log entry
+    content_type: 1
+    codename: view_logentry
+- model: auth.permission
+  pk: 5
+  fields:
+    name: Can add permission
+    content_type: 3
+    codename: add_permission
+- model: auth.permission
+  pk: 6
+  fields:
+    name: Can change permission
+    content_type: 3
+    codename: change_permission
+- model: auth.permission
+  pk: 7
+  fields:
+    name: Can delete permission
+    content_type: 3
+    codename: delete_permission
+- model: auth.permission
+  pk: 8
+  fields:
+    name: Can view permission
+    content_type: 3
+    codename: view_permission
+- model: auth.permission
+  pk: 9
+  fields:
+    name: Can add group
+    content_type: 2
+    codename: add_group
+- model: auth.permission
+  pk: 10
+  fields:
+    name: Can change group
+    content_type: 2
+    codename: change_group
+- model: auth.permission
+  pk: 11
+  fields:
+    name: Can delete group
+    content_type: 2
+    codename: delete_group
+- model: auth.permission
+  pk: 12
+  fields:
+    name: Can view group
+    content_type: 2
+    codename: view_group
+- model: auth.permission
+  pk: 13
+  fields:
+    name: Can add user
+    content_type: 4
+    codename: add_user
+- model: auth.permission
+  pk: 14
+  fields:
+    name: Can change user
+    content_type: 4
+    codename: change_user
+- model: auth.permission
+  pk: 15
+  fields:
+    name: Can delete user
+    content_type: 4
+    codename: delete_user
+- model: auth.permission
+  pk: 16
+  fields:
+    name: Can view user
+    content_type: 4
+    codename: view_user
+- model: auth.permission
+  pk: 17
+  fields:
+    name: Can add content type
+    content_type: 5
+    codename: add_contenttype
+- model: auth.permission
+  pk: 18
+  fields:
+    name: Can change content type
+    content_type: 5
+    codename: change_contenttype
+- model: auth.permission
+  pk: 19
+  fields:
+    name: Can delete content type
+    content_type: 5
+    codename: delete_contenttype
+- model: auth.permission
+  pk: 20
+  fields:
+    name: Can view content type
+    content_type: 5
+    codename: view_contenttype
+- model: auth.permission
+  pk: 21
+  fields:
+    name: Can add session
+    content_type: 6
+    codename: add_session
+- model: auth.permission
+  pk: 22
+  fields:
+    name: Can change session
+    content_type: 6
+    codename: change_session
+- model: auth.permission
+  pk: 23
+  fields:
+    name: Can delete session
+    content_type: 6
+    codename: delete_session
+- model: auth.permission
+  pk: 24
+  fields:
+    name: Can view session
+    content_type: 6
+    codename: view_session
+- model: auth.permission
+  pk: 25
+  fields:
+    name: Can add Token
+    content_type: 7
+    codename: add_token
+- model: auth.permission
+  pk: 26
+  fields:
+    name: Can change Token
+    content_type: 7
+    codename: change_token
+- model: auth.permission
+  pk: 27
+  fields:
+    name: Can delete Token
+    content_type: 7
+    codename: delete_token
+- model: auth.permission
+  pk: 28
+  fields:
+    name: Can view Token
+    content_type: 7
+    codename: view_token
+- model: auth.permission
+  pk: 29
+  fields:
+    name: Can add Token
+    content_type: 8
+    codename: add_tokenproxy
+- model: auth.permission
+  pk: 30
+  fields:
+    name: Can change Token
+    content_type: 8
+    codename: change_tokenproxy
+- model: auth.permission
+  pk: 31
+  fields:
+    name: Can delete Token
+    content_type: 8
+    codename: delete_tokenproxy
+- model: auth.permission
+  pk: 32
+  fields:
+    name: Can view Token
+    content_type: 8
+    codename: view_tokenproxy
+- model: auth.permission
+  pk: 33
+  fields:
+    name: Can add category
+    content_type: 9
+    codename: add_category
+- model: auth.permission
+  pk: 34
+  fields:
+    name: Can change category
+    content_type: 9
+    codename: change_category
+- model: auth.permission
+  pk: 35
+  fields:
+    name: Can delete category
+    content_type: 9
+    codename: delete_category
+- model: auth.permission
+  pk: 36
+  fields:
+    name: Can view category
+    content_type: 9
+    codename: view_category
+- model: auth.permission
+  pk: 37
+  fields:
+    name: Can add status
+    content_type: 14
+    codename: add_status
+- model: auth.permission
+  pk: 38
+  fields:
+    name: Can change status
+    content_type: 14
+    codename: change_status
+- model: auth.permission
+  pk: 39
+  fields:
+    name: Can delete status
+    content_type: 14
+    codename: delete_status
+- model: auth.permission
+  pk: 40
+  fields:
+    name: Can view status
+    content_type: 14
+    codename: view_status
+- model: auth.permission
+  pk: 41
+  fields:
+    name: Can add order
+    content_type: 10
+    codename: add_order
+- model: auth.permission
+  pk: 42
+  fields:
+    name: Can change order
+    content_type: 10
+    codename: change_order
+- model: auth.permission
+  pk: 43
+  fields:
+    name: Can delete order
+    content_type: 10
+    codename: delete_order
+- model: auth.permission
+  pk: 44
+  fields:
+    name: Can view order
+    content_type: 10
+    codename: view_order
+- model: auth.permission
+  pk: 45
+  fields:
+    name: Can add shop
+    content_type: 13
+    codename: add_shop
+- model: auth.permission
+  pk: 46
+  fields:
+    name: Can change shop
+    content_type: 13
+    codename: change_shop
+- model: auth.permission
+  pk: 47
+  fields:
+    name: Can delete shop
+    content_type: 13
+    codename: delete_shop
+- model: auth.permission
+  pk: 48
+  fields:
+    name: Can view shop
+    content_type: 13
+    codename: view_shop
+- model: auth.permission
+  pk: 49
+  fields:
+    name: Can add product
+    content_type: 12
+    codename: add_product
+- model: auth.permission
+  pk: 50
+  fields:
+    name: Can change product
+    content_type: 12
+    codename: change_product
+- model: auth.permission
+  pk: 51
+  fields:
+    name: Can delete product
+    content_type: 12
+    codename: delete_product
+- model: auth.permission
+  pk: 52
+  fields:
+    name: Can view product
+    content_type: 12
+    codename: view_product
+- model: auth.permission
+  pk: 53
+  fields:
+    name: Can add order item
+    content_type: 11
+    codename: add_orderitem
+- model: auth.permission
+  pk: 54
+  fields:
+    name: Can change order item
+    content_type: 11
+    codename: change_orderitem
+- model: auth.permission
+  pk: 55
+  fields:
+    name: Can delete order item
+    content_type: 11
+    codename: delete_orderitem
+- model: auth.permission
+  pk: 56
+  fields:
+    name: Can view order item
+    content_type: 11
+    codename: view_orderitem
+- model: auth.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$1200000$raideZTAJqZTSOZeBjQ53o$RbxIdYgV4VeoN/iNAS+qi5Jko3Di8p0o2vaI353dMSA=
+    last_login: null
+    is_superuser: false
+    username: manager1
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2026-02-02 23:58:40.299183+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$1200000$ifWVIZ06aWcIqfPsUKtqB5$73VTbaq+lIAzCyQ/8bnZoopRiJnPhb37G5/IEGhh6ig=
+    last_login: null
+    is_superuser: false
+    username: manager2
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2026-02-02 23:58:40.444541+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 3
+  fields:
+    password: pbkdf2_sha256$1200000$nWaopJlFGK7CXC8SM6H5i6$95f0uiDefOdiWwji71J/hD3CWhCg8591bP4YvTC9OAg=
+    last_login: null
+    is_superuser: false
+    username: manager3
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2026-02-02 23:58:40.584313+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 4
+  fields:
+    password: pbkdf2_sha256$1200000$4OYW2qdvxjsOndJgthXg7U$aZmMpkSDZDl6GbmCFJm+9W8bFBlexTcZluJYpafsIN8=
+    last_login: null
+    is_superuser: false
+    username: client1
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2026-02-02 23:58:40.723979+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 5
+  fields:
+    password: pbkdf2_sha256$1200000$Z3nkieSfCNEEfcMd5NVbrP$/ke7mQr8Zn5sY62sZvOClQMbjvx6ShfAOEi4wOAaz3Y=
+    last_login: null
+    is_superuser: false
+    username: client2
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2026-02-02 23:58:40.866745+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 6
+  fields:
+    password: pbkdf2_sha256$1200000$ls8J5ka0OuI34iuavhGF4t$kP7J44LeV/fO9RXr+eymhMJQEB/J8yRmyZvl/x4TCWw=
+    last_login: null
+    is_superuser: false
+    username: client3
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2026-02-02 23:58:41.008507+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 7
+  fields:
+    password: pbkdf2_sha256$1200000$pvMswlDnOAyLEDNs86sFVt$T+0zjcj+w39qmd5gSVQTgopGDd3wCxJOC4J3no/R8Xw=
+    last_login: null
+    is_superuser: false
+    username: client4
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2026-02-02 23:58:41.149327+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 8
+  fields:
+    password: pbkdf2_sha256$1200000$s9o8HBk2K25NSmE5ORJ8Wx$1Z6BAKAwYfW3CEsBH4vttNNJyYVqjE03lQ+9lbwJAU4=
+    last_login: null
+    is_superuser: false
+    username: client5
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2026-02-02 23:58:41.289007+00:00
+    groups: []
+    user_permissions: []
+- model: contenttypes.contenttype
+  pk: 1
+  fields:
+    app_label: admin
+    model: logentry
+- model: contenttypes.contenttype
+  pk: 2
+  fields:
+    app_label: auth
+    model: group
+- model: contenttypes.contenttype
+  pk: 3
+  fields:
+    app_label: auth
+    model: permission
+- model: contenttypes.contenttype
+  pk: 4
+  fields:
+    app_label: auth
+    model: user
+- model: contenttypes.contenttype
+  pk: 5
+  fields:
+    app_label: contenttypes
+    model: contenttype
+- model: contenttypes.contenttype
+  pk: 6
+  fields:
+    app_label: sessions
+    model: session
+- model: contenttypes.contenttype
+  pk: 7
+  fields:
+    app_label: authtoken
+    model: token
+- model: contenttypes.contenttype
+  pk: 8
+  fields:
+    app_label: authtoken
+    model: tokenproxy
+- model: contenttypes.contenttype
+  pk: 9
+  fields:
+    app_label: marketplace
+    model: category
+- model: contenttypes.contenttype
+  pk: 10
+  fields:
+    app_label: marketplace
+    model: order
+- model: contenttypes.contenttype
+  pk: 11
+  fields:
+    app_label: marketplace
+    model: orderitem
+- model: contenttypes.contenttype
+  pk: 12
+  fields:
+    app_label: marketplace
+    model: product
+- model: contenttypes.contenttype
+  pk: 13
+  fields:
+    app_label: marketplace
+    model: shop
+- model: contenttypes.contenttype
+  pk: 14
+  fields:
+    app_label: marketplace
+    model: status
+- model: marketplace.category
+  pk: 1
+  fields:
+    name: อาหารและเครื่องดื่ม
+    slug: food-drinks
+- model: marketplace.category
+  pk: 2
+  fields:
+    name: เครื่องแต่งกาย
+    slug: fashion-garments
+- model: marketplace.category
+  pk: 3
+  fields:
+    name: ของใช้และตกแต่ง
+    slug: home-decor
+- model: marketplace.category
+  pk: 4
+  fields:
+    name: สมุนไพรที่ไม่ใช่อาหาร
+    slug: herbal-products
+- model: marketplace.shop
+  pk: 1
+  fields:
+    name: ร้านแม่สมใจ ขนมหวาน
+    category: 1
+    owner: 1
+    description: ขนมไทยโบราณ สูตรดั้งเดิม
+- model: marketplace.shop
+  pk: 2
+  fields:
+    name: กลุ่มทอผ้าพื้นบ้านนาข่า
+    category: 2
+    owner: 2
+    description: ผ้าไหมและผ้าฝ้ายทอมือคุณภาพเยี่ยม
+- model: marketplace.shop
+  pk: 3
+  fields:
+    name: จักสานไม้ไผ่เมืองลับแล
+    category: 3
+    owner: 3
+    description: งานฝีมือประณีตจากไม้ไผ่ธรรมชาติ
+- model: marketplace.product
+  pk: 1
+  fields:
+    name: ข้าวตูชาววัง
+    shop: 1
+    category: 1
+    price: '85.00'
+    description: สินค้าท้องถิ่นคุณภาพ ข้าวตูชาววัง
+    stock: 100
+- model: marketplace.product
+  pk: 2
+  fields:
+    name: น้ำเก๊กฮวยป่า
+    shop: 1
+    category: 1
+    price: '35.00'
+    description: สินค้าท้องถิ่นคุณภาพ น้ำเก๊กฮวยป่า
+    stock: 100
+- model: marketplace.product
+  pk: 3
+  fields:
+    name: ทองหยิบทองหยอด
+    shop: 1
+    category: 1
+    price: '120.00'
+    description: สินค้าท้องถิ่นคุณภาพ ทองหยิบทองหยอด
+    stock: 100
+- model: marketplace.product
+  pk: 4
+  fields:
+    name: ผ้าซิ่นตีนจก
+    shop: 2
+    category: 2
+    price: '2500.00'
+    description: สินค้าท้องถิ่นคุณภาพ ผ้าซิ่นตีนจก
+    stock: 100
+- model: marketplace.product
+  pk: 5
+  fields:
+    name: เสื้อหม้อฮ่อม
+    shop: 2
+    category: 2
+    price: '450.00'
+    description: สินค้าท้องถิ่นคุณภาพ เสื้อหม้อฮ่อม
+    stock: 100
+- model: marketplace.product
+  pk: 6
+  fields:
+    name: ผ้าพันคอใยสับปะรด
+    shop: 2
+    category: 2
+    price: '890.00'
+    description: สินค้าท้องถิ่นคุณภาพ ผ้าพันคอใยสับปะรด
+    stock: 100
+- model: marketplace.product
+  pk: 7
+  fields:
+    name: ตะกร้าหวายสานมือ
+    shop: 3
+    category: 3
+    price: '350.00'
+    description: สินค้าท้องถิ่นคุณภาพ ตะกร้าหวายสานมือ
+    stock: 100
+- model: marketplace.product
+  pk: 8
+  fields:
+    name: แจกันไม้ลงรักปิดทอง
+    shop: 3
+    category: 3
+    price: '1200.00'
+    description: สินค้าท้องถิ่นคุณภาพ แจกันไม้ลงรักปิดทอง
+    stock: 100
+- model: marketplace.product
+  pk: 9
+  fields:
+    name: โคมไฟกะลามะพร้าว
+    shop: 3
+    category: 3
+    price: '590.00'
+    description: สินค้าท้องถิ่นคุณภาพ โคมไฟกะลามะพร้าว
+    stock: 100
+- model: marketplace.status
+  pk: 1
+  fields:
+    name: PENDING
+    description: ''
+- model: marketplace.status
+  pk: 2
+  fields:
+    name: PAID
+    description: ''
+- model: marketplace.status
+  pk: 3
+  fields:
+    name: CANCELLED
+    description: ''
+- model: marketplace.status
+  pk: 4
+  fields:
+    name: SHIPPED
+    description: ''
+- model: marketplace.status
+  pk: 5
+  fields:
+    name: COMPLETED
+    description: ''
+- model: marketplace.order
+  pk: 1
+  fields:
+    customer: 4
+    status: 2
+    total_price: '3550.00'
+    created_at: 2026-02-02 23:58:41.447297+00:00
+- model: marketplace.order
+  pk: 2
+  fields:
+    customer: 5
+    status: 2
+    total_price: '1040.00'
+    created_at: 2026-02-02 23:58:41.449570+00:00
+- model: marketplace.orderitem
+  pk: 1
+  fields:
+    order: 1
+    product: 6
+    shop: 2
+    quantity: 2
+    price: '890.00'
+- model: marketplace.orderitem
+  pk: 2
+  fields:
+    order: 1
+    product: 9
+    shop: 3
+    quantity: 3
+    price: '590.00'
+- model: marketplace.orderitem
+  pk: 3
+  fields:
+    order: 2
+    product: 9
+    shop: 3
+    quantity: 1
+    price: '590.00'
+- model: marketplace.orderitem
+  pk: 4
+  fields:
+    order: 2
+    product: 5
+    shop: 2
+    quantity: 1
+    price: '450.00'
