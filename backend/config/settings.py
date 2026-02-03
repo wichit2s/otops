@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_vite',
     'marketplace',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [

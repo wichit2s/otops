@@ -69,3 +69,30 @@ class OrderItem(models.Model):
 
     def __str__(self):
         return f"{self.quantity} x {self.product.name}"
+
+class Review(models.Model):
+    customer = models.ForeignKey(User, on_delete=models.CASCADE, related_name='reviews')
+    order = models.ForeignKey(Order, on_delete=models.CASCADE, related_name='reviews')
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='reviews', null=True, blank=True)
+    shop = models.ForeignKey(Shop, on_delete=models.CASCADE, related_name='reviews', null=True, blank=True)
+    rating = models.PositiveSmallIntegerField(choices=[(i, str(i)) for i in range(1, 6)])
+    comment = models.TextField(blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        # Prevent rating the same product/shop multiple times for the same order
+        unique_together = ('customer', 'order', 'product', 'shop')
+        ordering = ['-created_at']
+
+    def clean(self):
+        if not self.product and not self.shop:
+            raise ValidationError("Review must be for either a product or a shop (or both).")
+        if self.product and self.shop:
+            # Optionally allow both, but typically it might be one or the other.
+            # For now let's allow both if the user really wants to review both in one entry,
+            # but usually it's better to keep them separate if they are different entities.
+            pass
+
+    def __str__(self):
+        target = self.product.name if self.product else self.shop.name
+        return f"Rating {self.rating} for {target} by {self.customer.username}"
